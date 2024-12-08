@@ -1,0 +1,46 @@
+{
+  "name": "task-management-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "seed": "node seeds/load.js",
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "test": "mocha 'tests/**/*.js' --timeout 5000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kumar964050/Task-Management-API.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "mongodb",
+    "mongoose",
+    "restful",
+    "mvc",
+    "odm"
+  ],
+  "author": "Narendra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kumar964050/Task-Management-API/issues"
+  },
+  "homepage": "https://github.com/kumar964050/Task-Management-API#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "joi": "^17.13.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.8.3",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "chai": "^5.1.2",
+    "mocha": "^11.0.1",
+    "nodemon": "^3.1.7",
+    "supertest": "^7.0.0"
+  },
+  "description": ""
+}

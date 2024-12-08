@@ -1,0 +1,44 @@
+### Login
+POST http://localhost:3000/auth/login
+Content-Type: application/json
+
+{
+    "email": "lakshmi.shankar@example.com",
+    "password": "Test@123"
+}
+   
+
+### add new task
+POST http://localhost:3000/tasks
+Authorization: bearer token
+Content-Type: application/json
+
+{
+    "title" : "Task",
+    "priority" : "HIGH"
+}
+
+
+### get all tasks
+GET http://localhost:3000/tasks
+
+
+
+### get task by id
+GET http://localhost:3000/tasks/67548787dbedc3088a8a0cc3
+
+
+
+
+### update task by id
+PUT http://localhost:3000/tasks/67548787dbedc3088a8a0cc3
+Content-Type: application/json
+
+{
+    "title" : "Task",
+    "priority" : "LOW"
+}
+
+
+### delete task by id
+DELETE http://localhost:3000/tasks/67548787dbedc3088a8a0cc3
