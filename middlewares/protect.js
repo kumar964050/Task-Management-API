@@ -17,7 +17,7 @@ module.exports = CatchError(async function (req, res, next) {
   }
 
   // if token is empty
-  if (!token) throw new CustomError("Please provide token", 400);
+  if (!token) throw new CustomError("Access denied", 400);
 
   // extract username from token
   const decode = await jwt.verify(token, process.env.JWT_SECRET);

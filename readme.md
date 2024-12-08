@@ -6,6 +6,7 @@ This is a RESTful API for managing tasks with features to create, read, update, 
 
 - [Installation](#installation)
 - [Environment Variables](#environment-variables)
+- [Postman Collection](#postman-collections)
 - [API Endpoints](#api-endpoints)
   - [Create Task](#create-task)
   - [Get Tasks](#get-tasks)
@@ -63,6 +64,10 @@ You must configure the following environment variables in the `.env` file:
 - `DB_URL`: The MongoDB connection URI.
 - `PORT`: The port the application will run on (default is `3000`).
 - `JWT_SECRET`: secret code.
+
+## Postman Collections
+
+- **Postman** (https://www.postman.com/carbooking/task-management-api/overview)
 
 ## API Endpoints
 
